@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicOne</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+<body>
+    <div class="flex">
+        <div class="left">
+            <div class="header">
+                <div class="logo">
+                    <div class="logo-main">
+                        <img src="svgs/logo.svg">
+                        <span>MusicOne</span>
+                    </div>
+                    <img src="svgs/close.svg" id="closing" />
+                </div>
+                <div class="home">
+                    <img src="svgs/home.svg">
+                    <span><a href="#">Home</a></span>
+                </div>
+                <div class="search">
+                    <img src="svgs/search.svg">
+                    <span><a href="#">Search</a></span>
+                </div>
+            </div>
+            <div class="library">
+                <div class="library-head">
+                    <img src="svgs/library.svg">
+                    <span>Your Library</span>
+                </div>
+                <div class="songlist">
+
+                </div>
+            </div>
+            <div class="footer">
+                <a href="#">Legal</a>
+                <a href="#">Safety&Privacy Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies</a>
+                <a href="#">About Ads</a>
+                <a href="#">Accessibility</a>
+            </div>
+            <div class="last-icon">
+                <img src="svgs/world.svg">
+                <span>English</span>
+            </div>
+        </div>
+        <div class="right">
+            <div class="main-head">
+                <div class="arrows">
+                    <img src="svgs/arrow-left.svg">
+                    <img src="svgs/arrow-right.svg">
+                    <img src="svgs/menu.svg" id="menu" >
+                </div>
+                <div class="buttons">
+                    <button class="signup">Sign Up</button>
+                    <button class="login">Login</button>
+                </div>
+            </div>
+            <div class="album-head">Popular Albums</div>
+            <div class="albums">
+                <div data-folder="Annamayya" class="album">
+                    <img src="imgs/img-1.jpg">
+                    <div class="content">
+                        <p>Annamayya</p>
+                        <p>Akkineni Nagarjuna</p>
+                        <p>K. Raghavendra Rao</p>
+                    </div>
+                </div>
+                <div data-folder="KGF1" class="album">
+                    <img src="imgs/img-2.jpeg">
+                    <div class="content">
+                        <p>KGF-1</p>
+                        <p>Yash, Srinidhi Shetty</p>
+                        <p>Prashanth Neel</p>
+                    </div>
+                </div>
+                <div data-folder="RRR" class="album">
+                    <img src="imgs/img-3.jpeg">
+                    <div class="content">
+                        <p>RRR</p>
+                        <p>Ram charan & NTR</p>
+                        <p>S.S.Rajamouli</p>
+                    </div>
+                </div>
+                <div data-folder="Salar" class="album">
+                    <img src="imgs/img-4.jpeg">
+                    <div class="content">
+                        <p>Salar</p>
+                        <p>Prabas</p>
+                        <p>Prasanth Neel</p>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <p id="songid"></p>
+                <div class="options">
+                    <img id="previous" src="svgs/previous.svg">
+                    <img id="play" src="svgs/play.svg">
+                    <img id="next" src="svgs/next.svg">
+                </div>
+                <div class="timvol">
+                    <p id="songdur"></p>
+                    <img src="svgs/volup.svg" id="volup" />
+                    <input type="range" name="vol" id="volume">
+                </div>
+            </div>
+            <div class="line">
+                <div class="ball"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
